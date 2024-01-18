@@ -8,7 +8,7 @@ Our project aims to store and track data related to users’ fitness regimes. Us
 ![diagram](https://github.com/Jona-Han/FitnessTracker/assets/87393036/e0ba9374-74ca-4688-b2da-ffd0deafca06)
 
 
-## 3. Copy of the Final Relational Schema
+## 3. Final Relational Schema
 
 Users(ID: Integer, name: String)<br>
 User_Achievement(achievementID: Integer, description: String, dateAccomplished: Date, achieved: Integer, userID: Integer goalID: Integer)<br>
@@ -88,25 +88,3 @@ SELECT DISTINCT(U.ID) AS U_ID, U.name AS U_NAME
                   AND A1.postalCode = G1.postalCode
               )
           )
-
-## 5. IMAGES
-Main Menu
-<img width="1431" alt="Screenshot 2023-07-09 at 3 05 08 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/154b8f8e-517d-4dac-9205-56c837fe7950">
-
-View any table, select and project by use input
-<img width="1431" alt="Screenshot 2023-07-09 at 3 05 32 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/3e3602bf-ffdf-41a4-9d68-f0e2583820ae">
-<img width="1431" alt="Screenshot 2023-07-09 at 3 05 41 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/1ef9f436-8e5e-4c89-8fd7-289b341759f9">
-
-Update a goal
-<img width="1431" alt="Screenshot 2023-07-09 at 3 06 49 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/11b7bfd1-d11f-4aec-ad32-d748d33ae837">
-
-<img width="1431" alt="Screenshot 2023-07-09 at 3 07 01 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/45e7a0e3-9953-406f-983e-3a4476d7190d">
-
-Add entries
-<img width="1431" alt="Screenshot 2023-07-09 at 3 07 45 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/14b197c0-d9d2-463e-bbc2-37351a805b8b">
-
-User profiles
-<img width="1431" alt="Screenshot 2023-07-09 at 3 07 24 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/716ee9ef-c929-42cc-9e8b-5261a568773d">
-
-Joint table
-<img width="1431" alt="Screenshot 2023-07-09 at 3 07 59 AM" src="https://github.com/Jona-Han/FitnessTracker/assets/87393036/8b7b7da5-7c59-4980-ab2b-155163dca953">
