@@ -1,4 +1,3 @@
-# CPSC 304 Project Group 14
 # FitHub
 
 ## 1. Summary
